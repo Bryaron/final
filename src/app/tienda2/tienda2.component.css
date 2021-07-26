@@ -1,0 +1,74 @@
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+  
+  .footer {
+      margin-top: 40px;
+      border-top:1px solid #aaa;;
+      padding-top: 40px;   
+  }
+  .footer .menu a{
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  }
+  
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+  
+  .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box; }
+  
+  
+  
+  
+  
+  
+  .two.columns                    { width: 13.3333333333%; }
+    
+  .four.columns                   { width: 30.6666666667%; }
+    
+  .six.columns                    { width: 48%;            }
+
+
+
+  
+  /* Tabla del Carrito aparezca a la derecha
+     Las imagenes se ajusten a las "card"
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .u-full-width {
+    width: 100%;
+    box-sizing: border-box; }
+  
+  .u-pull-right {
+    float: right; }
+  
+  
+  
+ 
+  
+
+  
+
+  

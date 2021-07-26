@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "bdtienda-95822": {
+      "hosting": {
+        "TiendaJuegos": [
+          "bdtienda-95822"
+        ]
+      }
+    }
+  }
+}

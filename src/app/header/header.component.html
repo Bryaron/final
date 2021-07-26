@@ -1,0 +1,55 @@
+<header id="header" class="header">
+
+    <div class="container">
+        
+        <div class="row">
+
+            <div class="container-menu">
+                <button  class=" button-menu"><i class="icon fas fa-bars"></i></button>
+                <ul class="menu">
+                    <li><a [routerLink]="['/inicio']"><i class="icon left fas fa-biohazard"></i>Inicio</a></li>
+                    <li><a [routerLink]="['/cuenta']"><i class="icon left fas fa-brain"></i>Iniciar Sesion/ Crear cuenta</a></li>
+                    <li><a href="#scrollspyHeading1"><i class="icon left fas fa-gamepad"></i>Productos</a></li>
+                    <li><a href="#"><i class="icon left fas fa-ghost"></i>Merchandising<i class="icon right fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a [routerLink]="['/ropa']" >Ropa</a></li>
+                            
+                            <li><a [routerLink]="['/coleccionables']">Coleccionables</a></li>
+                        </ul>                            
+                    </li>
+
+                </ul>
+            </div>
+            
+            <div class="four columns">
+                <img src="/assets/img/capcom.png" id="logo">
+            </div>
+
+            <div class="two columns u-pull-right ">
+                <ul>
+                    <li class="submenu">
+                            <img src="/assets/img/carrito.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+                
+        </div> 
+    </div>
+    </header>
